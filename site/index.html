@@ -1,37 +1,82 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explorando la inteligencia artificial</title>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
+  <!-- Fuente externa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
 
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
+    <!-- Header -->
+    <header class="site-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+           alt="Logo circular azul con una hélice estilizada" class="logo">
+      <h1 class="site-title">Explorando la inteligencia artificial</h1>
+    </header>
 
-  <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
+    <!-- Contenido principal -->
+    <main class="content">
+      <section class="hero">
+        <h2 class="hero-heading">Descubre cómo la IA está transformando nuestro mundo</h2>
+        <p>Aprende los principios de aprendizaje automático, redes neuronales y ética de la IA a través de ejemplos simples y claras explicaciones.</p>
+        <a class="cta-button"
+           href="https://youtu.be/CpamB_HIM2A?si=HTefNgOcdI1yAmTv"
+           target="_blank" rel="noopener">
+          ▶ Ver introducción en YouTube
+        </a>
+      </section>
 
-      <h1>NGINX on Railway</h1>
+      <section class="card-grid" aria-label="Artículos destacados">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=600&q=80"
+               alt="Cerebro hecho de líneas y datos" class="card-img">
+          <h3 class="card-title">Aprendizaje supervisado</h3>
+          <p class="card-text">
+            Descubre cómo los algoritmos clasifican correos spam
+            o reconocen dígitos escritos a mano usando datos etiquetados.
+          </p>
+        </article>
 
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
+        <article class="card">
+          <img src="https://www.edge-ai-vision.com/wp-content/uploads/2019/12/1200x675header_robotics2-1024x576.jpg"
+               alt="AI robot escaner" class="card-img">
+          <h3 class="card-title">Robótica cognitiva</h3>
+          <p class="card-text">
+            Conoce cómo los sensores y la IA permiten que los robots
+            perciban el entorno y aprendan tareas complejas.
+          </p>
+        </article>
+
+        <article class="card">
+          <img src="https://i.ytimg.com/vi/6yDr7CWLJ8c/hq720.jpg"
+               alt="Representación visual de la ética en la inteligencia artificial" class="card-img">
+          <h3 class="card-title">Ética y privacidad</h3>
+          <p class="card-text">
+            Explora los dilemas sobre sesgos algorítmicos,
+            protección de datos y transparencia en sistemas inteligentes.
+          </p>
+        </article>
+      </section>
     </main>
 
-    <script src="/script.js"></script>
-  </body>
+    <!-- Footer con datos de identificación -->
+    <footer class="site-footer">
+      <p>
+        Licenciatura en Desarrollo de Sistemas Web (LDSW)<br>
+        Héctor Armando Salazar Andrade — Código 221968676<br>
+        armando.salazar.andrade@gmail.com
+      </p>
+    </footer>
+
+  </div>
+</body>
 </html>
